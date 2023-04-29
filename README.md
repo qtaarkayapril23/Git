@@ -77,6 +77,7 @@
 
 
 * below, I have switched from dev to production and used git rebase command ,now all the commits are merged in production.
+ 
 ![Preview](Images/git9.png)
 
 
