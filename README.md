@@ -34,13 +34,16 @@
 * Create a new branch and make some changes to it.
 
 * Use git stash to save the changes without committing them.
+
 ![Preview](Images/git1.png)
 
 
 * Switch to a different branch, make some changes and commit them.
+
 ![Preview](Images/git2.png)
 
 * Use git stash pop to bring the changes back and apply them on top of the new commits.
+
 ![Preview](Images/git3.png)
 ![Preview](Images/git4.png)
 
@@ -52,20 +55,24 @@
 * Line2>> After bug fixing, this is the new feature with minor alteration”
 
 * Commit this with message “ Added feature2.1 in development branch”
+
 ![Preview](Images/git5.png)
 
 
 * Line3>> This is the advancement of previous feature
 
 * Commit this with message “ Added feature2.2 in development branch”
+
 ![Preview](Images/git6.png)
 
 * Line4>> Feature 2 is completed and ready for release
 
 * Commit this with message “ Feature2 completed”
+
 ![Preview](Images/git7.png)
 
 * All these commits messages should be reflected in Production branch too which will come out from Master branch.
+
 ![Preview](Images/git8.png)
 
 
