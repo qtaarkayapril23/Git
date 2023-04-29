@@ -79,6 +79,7 @@
     * Switch to production branch.
     * for cherry-pick use command: git cherry-pick <commit ID for feature2.2>
     * here cherry-pick gives conflict error. so we need to solve conflict error.
+    
     ![Preview](Images/git10.png)
     ![Preview](Images/git11.png)
 
@@ -89,6 +90,7 @@
     ```
 
     * In git log, you can check commit is at the top.
+    
     ![Preview](Images/git12.png)
 
     * Line to be added after Line3>> This is the advancement of previous feature
@@ -96,6 +98,7 @@
     * Line4>>Added few more changes to make it more optimized.
 
     * Commit: Optimized the feature
+    
     ![Preview](Images/git13.png)
 
 * *THANK YOU FOR READING.*
