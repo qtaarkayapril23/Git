@@ -1,6 +1,111 @@
 29-04-2023
 -----------
 
+
+
+### GIT AND GITHUB
+
+* Git:
+    * Git is a tool used by developers to manage and track codes. 
+    * It allows multiple people to work on a project, modify codes and keep track of changes made to the codebase over time. 
+    * Git is installed on your local system rather than in the cloud.
+
+![Preview](Images/git.png)
+
+* GitHub:
+    * GitHub is used for hosting Git repositories. 
+    * GitHub serves as a location for uploading copies of the Git repository. 
+    * It allows developers to perform operations like pull requests, issue tracking, and sharing codes with others by giving them the power to make revisions or edits and project management tools.
+
+![Preview](Images/github.png)
+
+### Git and GitHub Set Up
+* Visit the official Git website and download the version suitable for your operating system. 
+* Install the package on your operating system by following the prompts for installation.
+
+* Create a GitHub account by visiting the GitHub website.
+* After installing the git, configure your name and email address to identify you as the author of commits to your repositories.
+
+### Git
+
+* Open the command prompt and enter the following commands:
+```    
+git config –global user.name ‘your-name’
+git config –global user.email youremail@illustration.com
+```
+
+Note; Replace ‘your-name’ and ‘youremail@illustration.com’ with your name and email address.
+
+* Create a new repository using the following command:
+```
+git init
+```
+
+* Add all files in the current directory to the staged area:
+```
+git add .
+```
+
+* Commit the changes to the repository using the following command:
+```
+git commit -m ‘commit message’
+```
+
+* where ‘commit message’ is the changes you made.
+
+* Check the status of your Git repository using the following command:
+```
+git status
+```
+
+* Transfer files from the local repository to the remote repository using the following command:
+```
+git push
+```
+
+* Transfer files from GitHub to the workspace using the following command:
+```
+git pull
+```
+
+### GitHub
+
+* Creating a repository
+* To create a repository on GitHub, click the ‘+” sign in the top right corner of the page and select ‘New repository’. 
+* Please provide a name and description of the repository, and select whether you want it to be private or public.
+
+* Clone the repository.
+* You need to clone the repository to your local computer. 
+* Go to your repository on GitHub and click the green ‘Code’ button. Copy the URL (either HTTPS or SSH). 
+* Navigate to the directory where you want to clone the repository using the ‘cd command’ and type the following command 
+
+* — replacing the ‘repository-url’ with the URL you copied.
+```
+$ git clone repository-url
+```
+
+* Make changes with the desired text editor you want and stage all the changes using the git add command.
+```
+git add .
+```
+
+* Commit the changes using the git commit command, where the commit message is the changes you made.
+```
+git commit -m ‘commit message’
+```
+
+* Push the changes using the git push command.
+```
+git push
+```
+
+* Go to the repository on GitHub, click on the pull request tab, and then click on the green ‘New pull request button’.
+
+* With these basic commands, you can use Git and GitHub to manage your code, which is detailed enough to build on.
+
+
+
+
 ### Git Stash:
 
 * Git stash is a command that allows you to temporarily save changes you have made in your working directory, without committing them. 
@@ -13,6 +118,8 @@
 * git stash list command shows the list of stashed changes.
 
 * You can also use git stash drop to delete a stash and git stash clear to delete all the stashes.
+
+![Preview](Images/gitstash.png)
 
 
 ### Cherry-pick:
